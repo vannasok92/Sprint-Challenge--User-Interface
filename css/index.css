@@ -161,6 +161,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 20px 0;
 }
 
 footer nav a {
@@ -170,16 +171,23 @@ footer nav a {
 header{
     display: flex;
     width: 800px;
+    justify-content: center;
+    
+    margin: 0 auto;
 }
 
-header div a{
+header a{
     display: flex;
-    justify-content: space-between;
     color:black;
     text-decoration: none;
-    
     padding: 20px 2%;
     font-size: 14px;    
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .header-photo{
@@ -188,6 +196,68 @@ header div a{
     width: 100%;
     margin: 15px 0px 15px 0px;
 }
+
+/* about css start */
+.about-top-photo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 15px 0px 20px 0px;
+}
+h2{
+    font-size: 25px;
+}
+
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+.container-about-page div{
+    display: flex;
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    border-bottom: 1px dotted black;
+}
+.about-mid-content{
+    display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-top: 1px dotted black;
+	
+    justify-content: space-between;
+    margin: 15px 5px;
+}
+.about-mid-content img{
+    margin: 10px 0px;
+
+}
+.about-item{
+    display: flex;
+	
+	flex-direction: column;
+    background-color: white;
+    border-bottom: 1px dotted black;
+	width: 48%;
+	margin: 20px 0px 20px 0px;
+}
+.about-button{
+    display: flex;
+	border: 1.5px solid black;
+	margin: 15px 220px 15px 10px;
+    padding: 6px 6px 6px 40px; 
+	border-radius: 10px;
+	color: black;
+	background-color: white;
+}
+.about-bot-content div{
+    
+    display: flex;
+    width: 100%;
+    margin: 15px 5px;
+    padding: 5px 
+}
+
 
 
 
